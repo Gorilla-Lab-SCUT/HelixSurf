@@ -1,7 +1,7 @@
 # HelixSurf
 
 Official Implementation of paper "HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes with Iterative Intertwined Regularization". Received
-- HelixSurf is accepted to CVPR 2023).
+- HelixSurf is accepted to CVPR 2023.
 
 **code is coming soon**
 
