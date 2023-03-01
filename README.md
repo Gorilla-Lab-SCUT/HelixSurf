@@ -18,6 +18,13 @@
 ## Citation
 If you find this work useful in your research, please cite:
 ```txt
-
+@misc{liang2023helixsurf,
+      title={HelixSurf: A Robust and Efficient Neural Implicit Surface Learning of Indoor Scenes with Iterative Intertwined Regularization}, 
+      author={Zhihao Liang and Zhangjin Huang and Changxing Ding and Kui Jia},
+      year={2023},
+      eprint={2302.14340},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
