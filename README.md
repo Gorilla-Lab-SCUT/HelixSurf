@@ -4,7 +4,7 @@
 
 #### <p align="center"> CVPR 2023 </p>
 
-#### <p align="center">[Paper]() | [Project Page]() </p>
+#### <p align="center">[Paper](https://arxiv.org/pdf/2302.14340.pdf) | [Arxiv](https://arxiv.org/abs/2302.14340) | [Project Page](https://lzhnb.github.io/project-pages/helixsurf.html) </p>
 
 **code is coming soon**
 
