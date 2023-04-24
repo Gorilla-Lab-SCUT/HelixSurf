@@ -1,0 +1,6 @@
+[submodule "dependencies/gmvs"]
+	path = dependencies/gmvs
+	url = git@github.com:Gorilla-Lab-SCUT/gmvs.git
+[submodule "dependencies/Primitive3D"]
+	path = dependencies/Primitive3D
+	url = git@github.com:lzhnb/Primitive3D.git
