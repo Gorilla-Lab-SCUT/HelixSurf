@@ -1,0 +1,8 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 100
+UseTab: Never
+ContinuationIndentWidth: 8
+AccessModifierOffset: -4
+BinPackParameters: false
+SortIncludes: true

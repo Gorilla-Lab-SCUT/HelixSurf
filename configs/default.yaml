@@ -1,0 +1,23 @@
+factor: 1
+
+step_size: 1.0
+grid_sample_res: 64
+max_grid_sample_res: 128
+ups_epoch: 1
+
+model:
+    level: 6
+    sh_degree: 4
+    sdf_n_layers: 8
+    sdf_skip_in:
+        - 4
+    rgb_n_layers: 4
+    dim_geo: 128
+    init_val: 0.3
+
+bound: 1.0
+grid_res: 64
+
+planar_normal_marchingcube_res: 256
+planar_normal_marchingcube_thresh: 0.
+plane_slidewindow_size: 31

@@ -1,0 +1,6 @@
+numpy
+opencv-python
+omegaconf
+open3d
+tensorboard
+pyrender

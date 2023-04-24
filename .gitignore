@@ -1,0 +1,20 @@
+# directory
+*build*
+*egg*
+__pycache__
+.vscode
+data
+HelixSurf_data
+*ckpt*
+mvs_results
+temp
+
+# file
+.ccls
+*.so
+*.ply
+*.xyz
+*.obj
+*.png
+*.sh
+*.zip
