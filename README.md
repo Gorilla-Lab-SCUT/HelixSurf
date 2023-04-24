@@ -68,6 +68,27 @@ sh run_scripts/next_mvs.sh
 sh run_scripts/0616_train.sh mvs_from_1epoch "--load_ckpt ckpt/0616_00_default/ckpt_1.pth --consistant -im_psize 11"
 ```
 
+## Training using pretrained geometric cues
+> take `0616_00` in ScanNet as an example
+> we provide the run_script for `0616_00`. You can just modify this script slightly and get the training launch script for other scene.
+> You can also refer MonoSDF to generate geometric cues using Omnidata.
+> The 
+
+- step0: prepare original data
+- step1: generate geometric cues (just for normal)
+```sh
+python scripts/pretrained_geometric.py --task normal \
+  --img_path HelixSurf_data/scene_data/0616_00/images/ \
+  --output_path HelixSurf_data/scene_data/0616_00/pretrained \
+  --omnidata_path $OMNIDATA_PROJECT/omnidata_tools/torch \
+  --pretrained_models $OMNIDATA_PROJECT/omnidata_tools/torch/pretrained_models/
+```
+- step2: training
+
+```sh
+sh run_scripts/0616_pretrained_train.sh mvs "--casting"
+```
+
 ## Inference
 
 Run the follow command to perform inference:
@@ -80,7 +101,7 @@ We provide pretrained models. [[Google Drive]](https://drive.google.com/drive/fo
 
 ## TODO
 
-- [ ] Pretrained model support (normal cues)
+- [x] Pretrained model support (normal cues)
 - [ ] Unbiased depth expectation for regularization
 
 ## Acknowledge
